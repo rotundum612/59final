@@ -19,7 +19,7 @@
     _You may re-use old code from pool-table Ball objects._
   * Also include a **`hit( x, y )`** method, to return `true` iff this Lobster is near the coordinates (x,y).
 
-3. Make an array of **`Lobster`** objects, using YOUR OWN _(in lower case)_ initials.  
+3. Make an array of *`Lobster`** objects, using YOUR OWN _(in lower case)_ initials.  
    _If your name is Donald Q. Trump, then your array should be declared as:_  **`Lobster[] dqt`** 
 
 5. Add code to make all of the "Lobsters" move and show themselves.
