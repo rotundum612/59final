@@ -1,0 +1,82 @@
+
+
+float sam,dean,deany;
+class lobster
+
+//// SETUP: LOBSTERS GOING SOUTH
+void setup()
+{
+  size( 450, 600 );
+  
+}
+
+
+
+ 
+ 
+  sam=  new lobster( "sam", width/4  );
+  dean=  new lobster( "dean", width/2 );
+  deany=  new lobster( "Deany", width*3/4 );
+}
+
+
+void Draw() {
+  scene();
+  action();
+  show();
+}
+
+}
+
+void action() {
+  sam.move();
+  dean.move();
+  deany.move();
+  if (samX>width)  samDX = -random( 0.5, 3 );
+  if (deanX<0)      deanDX = random( 1, 5 );
+  deanX += deanDX;
+}
+void show() {
+  sam.show(); 
+  dean.show(); 
+  deany.show(); 
+  
+  fill(255,0,0);
+  noStroke();
+ 
+triangle(2, 75, 75, 20, 75);
+
+fill(250,20,1);
+
+class lobster;
+lobster[ejm]
+void draw(){
+  if (lobster){
+    fill(138,138,139);
+    ellipse(lobsterX,lobsterY,30,20);
+    lobsterX+=lobsterDX;
+    frame=frame+1;
+    if(lobsterX<left||lobsterX>right)lobsterDX*=-1;
+    //lobster claws
+
+    if(lobsterDX==-1);{
+      void button() {
+  
+  fill(178, 255, 245);
+  ellipse(buttonX, buttonY, 40,40);
+  fill(78,59,255);
+  text("reset", 587, 54);
+}
+void mousePressed() {
+  if( dist(buttonX, buttonY, mouseX, mouseY)<25) {
+    reset();
+  }}
+      if(frame/30%2==0){
+        ellipse(lobsterX-17,lobsterY+5,15,10);   //antennas
+        ellipse(lobsterX-17,lobsterY+5,2,2);  //eye
+        ellipse(lobsterX+23,lobsterY+15,5);    //tail
+ellipse(lobsterx-26,lobsterY+5,5,4);
+        line(lobsterX+15,lobsterY+4,lobstereX+25,lobsterY+14); //leg
+        line(lobster-10,lobsterY+8,lobsterX-25,lobsterY+20);    //leg
+       void reset(){
+         reset();
